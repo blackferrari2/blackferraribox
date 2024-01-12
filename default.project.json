@@ -1,0 +1,7 @@
+{
+	"name": "blackferraribox",
+	
+	"tree": {
+		"$path": "src"
+	}
+}

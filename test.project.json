@@ -1,0 +1,21 @@
+{
+	"name": "blackferraribox-test",
+	
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+
+			"Packages": {
+				"$path": "Packages",
+				"$ignoreUnknownInstances": true,
+
+				"blackferraribox": {
+					"$path": "default.project.json",
+					"$ignoreUnknownInstances": true
+				}
+			}
+		}
+	}
+}
