@@ -8,14 +8,21 @@ Factory.Kinds = {
         Name = "Red",
         Dump = Instance.new("Folder", Factory.GlobalDump),
         Color = Color3.new(1, 0, 0),
-        Transparency = 0.5,
+        Transparency = 1,
     },
 
     Blue = {
         Name = "Blue",
         Dump = Instance.new("Folder", Factory.GlobalDump),
         Color = Color3.new(0, 0, 1),
-        Transparency = 0.25,
+        Transparency = 1,
+    },
+
+    Green = {
+        Name = "Green",
+        Dump = Instance.new("Folder", Factory.GlobalDump),
+        Color = Color3.new(0, 1, 0),
+        Transparency = 1,
     },
 }
 
