@@ -16,6 +16,14 @@
 					"$ignoreUnknownInstances": true
 				}
 			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"Tests": {
+				"$path": "tests"
+			}
 		}
 	}
 }
