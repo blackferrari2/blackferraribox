@@ -1,18 +1,11 @@
---[[
-	blackferrari2 hitbox system
-
-	last updated: Jan 12, 2024
-	needs more documentation. ill work on that eventually :P
-]]
-
 local RunService = game:GetService("RunService")
 
-local Factory = require(script.Factory)
-local Query = require(script.Query)
-local Signal = require(script.Parent.Signal)
+local packages = script.Parent.Parent
+
+local Query = require(script.Parent.Query)
+local Signal = require(packages.Signal)
 
 local BlackFerrariBox = {
-    Factory = Factory,
 	HitboxAttribute = "IsHitbox",
 	HitboxPriorityAttribute = "HitboxPriority",
 }
